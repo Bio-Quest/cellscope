@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cellscope"
+version = "1.0.0"
+description = "single cell multi-omics data analysis toolkit"
+authors = ["生信探索 BioQuest <yehior@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scanpy = "^1.10"
+pydeseq2 = "^0.4.9"
+numpy = "^1.23"
+pandas = "^1.5"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.7.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
